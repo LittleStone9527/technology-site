@@ -20,7 +20,8 @@ input,
 option,
 select,
 button,
-hr {
+hr,
+textarea {
   border: none;
 }
 ul {
@@ -239,6 +240,7 @@ activity start
   width: 1028px;
   margin: 45px auto 0 auto;
   font-size: 0;
+  letter-spacing: -4px;
 }
 .activity .activity-info select,
 .activity .activity-info input {
@@ -495,3 +497,159 @@ events start
 /*----------------
 events end
 ------------------*/
+/*----------------
+ join  start
+------------------*/
+.join {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 120px;
+}
+.join h3 {
+  font-size: 21px;
+  color: #333;
+  text-align: center;
+  font-weight: normal;
+}
+.join hr {
+  width: 30px;
+  height: 3px;
+  background-color: #e74f4d;
+  margin: 8px auto 16px auto;
+}
+.join p {
+  width: 426px;
+  margin: 0 auto;
+  font-size: 12px;
+  text-align: center;
+  color: #aaa;
+}
+.join .join-info {
+  margin-top: 100px;
+  overflow: hidden;
+}
+.join .agreement {
+  width: 304px;
+  float: left;
+  padding-right: 56px;
+}
+.join .agreement h3 {
+  font-size: 14px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.join .agreement p {
+  width: 100%;
+  text-align: left;
+}
+.join .agreement a {
+  color: #aaa;
+  text-align: right;
+  display: inline-block;
+  width: 100%;
+}
+.join .agreement-item {
+  margin-bottom: 20px;
+}
+.join .apply {
+  width: 640px;
+  float: right;
+}
+.join input {
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 15px;
+  float: left;
+  font-size: 12px;
+  color: #aaa;
+  background-color: #ededee;
+  padding-left: 10px;
+}
+.join textarea {
+  width: 622px;
+  height: 164px;
+  border: none;
+  font-size: 12px;
+  color: #aaa;
+  background-color: #ededee;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+.join .margin-right {
+  margin-right: 15px;
+}
+.join .apply-submit {
+  width: 622px;
+  height: 40px;
+  border: none;
+  font-size: 12px;
+  color: #aaa;
+  background-color: #ededee;
+}
+/*----------------
+ join  end
+------------------*/
+/*----------------
+footer start
+----------------*/
+footer {
+  width: 100%;
+  background-color: #32353e;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+footer h3,
+footer p {
+  width: 470px;
+  margin: 0 auto;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  color: #fff;
+  text-align: center;
+}
+footer p {
+  font-size: 12px;
+  margin-top: 10px;
+}
+footer .subscribe {
+  width: 510px;
+  height: 40px;
+  margin: 40px auto 0 auto;
+}
+footer input {
+  height: 40px;
+  line-height: 40px;
+  color: #aaa;
+}
+footer .mail {
+  width: 420px;
+  padding-left: 10px;
+}
+footer .submit {
+  width: 80px;
+  color: #fff;
+  background-color: #6f7178;
+}
+footer .share {
+  text-align: center;
+  margin: 35px auto 0 auto;
+}
+footer .share a {
+  display: inline-block;
+  margin-right: 15px;
+}
+footer .copyright {
+  width: 100%;
+  height: 60px;
+  background-color: #333333;
+  overflow: hidden;
+}
+footer .copyright p {
+  width: 50%;
+  float: left;
+  line-height: 60px;
+}
+/*----------------
+footer start
+----------------*/

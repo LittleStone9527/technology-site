@@ -8,7 +8,7 @@ p,ul,h1,h2,h3,input,button,hr,img{
 a{
   text-decoration: none;
 }
-input,option,select,button,hr{
+input,option,select,button,hr,textarea{
   border: none;
 }
 ul{
@@ -251,6 +251,7 @@ activity start
       width: 1028px;
       margin: 45px auto 0 auto;
       font-size: 0;
+      letter-spacing: -4px;//for safari
     }
     select,input{
       height: 35px;
@@ -365,7 +366,6 @@ events start
   }
   .events-info{
     width: 30%;
-    //height: 565px;
     padding-top: 20px;
     margin-right: 10px;
     float: right;
@@ -516,3 +516,171 @@ events start
 /*----------------
 events end
 ------------------*/
+
+
+
+/*----------------
+ join  start
+------------------*/
+.join{
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 120px;
+  h3{
+    font-size: 21px;
+    color: #333;
+    text-align: center;
+    font-weight: normal;
+  }
+  hr{
+    width: 30px;
+    height: 3px;
+    background-color: #e74f4d;
+    margin: 8px auto 16px auto;
+  }
+  p{
+    width: 426px;
+    margin: 0 auto;
+    font-size: 12px;
+    text-align: center;
+    color: #aaa;
+  }
+
+  .join-info {
+    margin-top: 100px;
+    overflow: hidden;
+    //background-color: #e74f4d;
+
+  }
+  .agreement{
+    width: 304px;
+    float: left;
+    padding-right: 56px;
+    h3{
+      font-size: 14px;
+      text-align: left;
+      margin-bottom: 20px;
+    }
+    p{
+      width: 100%;
+      text-align: left;
+    }
+    a{
+      color: #aaa;
+      text-align: right;
+      display: inline-block;
+      width: 100%;
+    }
+  }
+  .agreement-item{
+    margin-bottom: 20px;
+  }
+
+  .apply{
+    width: 640px;
+    float: right;
+  }
+  input{
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 15px;
+    float: left;
+    font-size: 12px;
+    color: #aaa;
+    background-color: #ededee;
+    padding-left: 10px;
+  }
+  textarea{
+    width: 622px;
+    height: 164px;
+    border: none;
+    font-size: 12px;
+    color: #aaa;
+    background-color: #ededee;
+    padding-left: 10px;
+    margin-bottom: 15px;
+  }
+  .margin-right{
+    margin-right: 15px;
+  }
+  .apply-submit{
+    width: 622px;
+    height: 40px;
+    border: none;
+    font-size: 12px;
+    color: #aaa;
+    background-color: #ededee;
+  }
+}
+
+
+/*----------------
+ join  end
+------------------*/
+
+/*----------------
+footer start
+----------------*/
+footer{
+  width: 100%;
+  background-color: #32353e;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  h3,p{
+    width: 470px;
+    margin: 0 auto;
+    font-family: "Microsoft YaHei";
+    font-weight: normal;
+    color: #fff;
+    text-align: center;
+    //line-height: 30px;
+  }
+  p{
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .subscribe{
+    width: 510px;
+    height: 40px;
+    margin: 40px auto 0 auto;
+  }
+  input{
+    height: 40px;
+    line-height: 40px;
+    color: #aaa;
+  }
+  .mail{
+    width: 420px;
+    padding-left: 10px;
+  }
+  .submit{
+    width: 80px;
+    color: #fff;
+    background-color: #6f7178;
+  }
+  .share{
+    //width: 520px;
+    text-align: center;
+    margin: 35px auto 0 auto;
+
+    a{
+      display: inline-block;
+      margin-right: 15px;
+    }
+  }
+  .copyright{
+    width: 100%;
+    height: 60px;
+    background-color: #333333;
+    overflow: hidden;
+    p{
+      width: 50%;
+      float: left;
+      line-height: 60px;
+    }
+  }
+}
+/*----------------
+footer start
+----------------*/
