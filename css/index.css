@@ -7,7 +7,9 @@ h1,
 h2,
 h3,
 input,
-button {
+button,
+hr,
+img {
   margin: 0;
   padding: 0;
 }
@@ -17,7 +19,8 @@ a {
 input,
 option,
 select,
-button {
+button,
+hr {
   border: none;
 }
 ul {
@@ -408,11 +411,85 @@ events start
 }
 .events .events-block {
   height: 519px;
-  background-color: yellowgreen;
   overflow: hidden;
 }
-.events .events-block img {
+.events .events-block hr {
+  width: 30px;
+  height: 3px;
+  margin: 25px auto;
+  background-color: #ABABAB;
+}
+.events .events-block .more {
+  width: 168px;
+  height: 41px;
+  line-height: 41px;
+  display: block;
+  margin: auto;
+  font-family: "Microsoft YaHei";
+  font-size: 21px;
+  text-align: center;
+}
+.events .block-1 {
   width: 33.3%;
+  height: 519px;
+  float: left;
+  background-color: #e74f4d;
+}
+.events .block-1 img {
+  width: 100%;
+  height: auto;
+}
+.events .block-1 .block-info {
+  width: 100%;
+  padding-top: 20px;
+}
+.events .block-1 h3,
+.events .block-1 a {
+  color: #fff;
+  font-weight: normal;
+  text-align: center;
+}
+.events .block-1 hr {
+  background-color: #fff;
+  margin: 20px auto;
+}
+.events .block-1 a {
+  color: #fff;
+  font-weight: 500;
+  border: 1px solid #fff;
+}
+.events .block-1 a:hover {
+  background-color: #fff;
+  color: #e74f4d;
+}
+.events .block-2 {
+  width: 66.7%;
+  height: 519px;
+  float: right;
+}
+.events .block-2 .block-info {
+  width: 50%;
+  float: left;
+  padding-top: 168px;
+  background-color: #fff;
+}
+.events .block-2 h3,
+.events .block-2 a {
+  color: #818181;
+  font-weight: normal;
+  text-align: center;
+}
+.events .block-2 a {
+  color: #e74f4d;
+  font-weight: 500;
+  border: 1px solid #e74f4d;
+}
+.events .block-2 a:hover {
+  background-color: #e74f4d;
+  color: #fff;
+}
+.events .block-2 img {
+  width: 50%;
   float: right;
 }
 /*----------------

@@ -1,14 +1,14 @@
 /*-------
 reset
 ------*/
-p,ul,h1,h2,h3,input,button{
+p,ul,h1,h2,h3,input,button,hr,img{
   margin: 0;
   padding: 0;
 }
 a{
   text-decoration: none;
 }
-input,option,select,button{
+input,option,select,button,hr{
   border: none;
 }
 ul{
@@ -429,12 +429,88 @@ events start
   }
   .events-block{
     height: 519px;
-    background-color: yellowgreen;
     overflow: hidden;
+
+
+    hr{
+      width: 30px;
+      height: 3px;
+      margin: 25px auto;
+      background-color: #ABABAB;
+    }
+    .more{
+      width: 168px;
+      height: 41px;
+      line-height: 41px;
+      display: block;
+      margin: auto;
+      font-family: "Microsoft YaHei";
+      font-size: 21px;
+      text-align: center;
+    }
+
+  }
+  .block-1{
+    width: 33.3%;
+    height: 519px;
+    float: left;
+    background-color: #e74f4d;
     img{
-      width: 33.3%;
+      width: 100%;
+      height: auto;
+    }
+    .block-info{
+      width: 100%;
+      padding-top: 20px;
+    }
+    h3,a{
+      color: #fff;
+      font-weight: normal;
+      text-align: center;
+    }
+    hr{
+      background-color: #fff;
+      margin: 20px auto;
+    }
+    a{
+      color: #fff;
+      font-weight: 500;
+      border: 1px solid #fff;
+    }
+    a:hover{
+      background-color: #fff;
+      color: #e74f4d;
+    }
+  }
+  .block-2{
+    width: 66.7%;
+    height: 519px;
+    float: right;
+    .block-info{
+      width: 50%;
+      float: left;
+      padding-top: 168px;
+      background-color: #fff;
+    }
+    h3,a{
+      color: #818181;
+      font-weight: normal;
+      text-align: center;
+    }
+    a{
+      color: #e74f4d;
+      font-weight: 500;
+      border: 1px solid #e74f4d;
+    }
+    a:hover{
+      background-color: #e74f4d;
+      color: #fff;
+    }
+    img{
+      width: 50%;
       float: right;
     }
+
   }
 }
 /*----------------
