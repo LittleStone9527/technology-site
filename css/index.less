@@ -1,0 +1,379 @@
+/*-------
+reset
+------*/
+p,ul,h1,h2,h3,input{
+  margin: 0;
+  padding: 0;
+}
+input,option,select{
+  border: none;
+}
+ul{
+  list-style: none;
+}
+
+/*-------------
+header start
+-------------*/
+header{
+  height: 56px;
+  width: 1280px;
+  margin-left: 50px;
+  //background-color: #ff0;
+
+  h1{
+    width: 120px;
+    height: 31px;
+    float: left;
+    margin-top: 13px;
+    line-height: 31px;
+    font-size: 21px;
+    font-family: "黑体";
+    text-indent: 31px;
+    background:url("../images/logo-bg.png") no-repeat 0 0;
+  }
+  nav{
+    float: right;
+  }
+  ul{
+    font-size: 0;
+  }
+  li{
+    display: inline-block;
+    width: 65px;
+    height: 52px;
+    margin-right: 25px;
+    //background-color: #00cc66;
+
+    a{
+      width: 65px;
+      height: 52px;
+      line-height: 52px;
+      display: block;
+      color: #787b83;
+      font-size: 14px;
+      font-family: "Microsoft YaHei", "Arial";
+      text-align: center;
+      text-decoration: none;
+    }
+    a:hover,
+    a:active{
+      color: #e74f4d;
+      border-bottom: 4px solid #e74f4d;
+    }
+
+  }
+  .active{
+    a{
+      color: #e74f4d;
+    }
+
+    border-bottom: 4px solid #e74f4d;
+  }
+}
+/*-------------
+header end
+-------------*/
+
+
+/*-------------
+banner start
+-------------*/
+.banner{
+  width: 100%;
+  height: 692px;
+  background: url("../images/banner-bg.jpg") no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  overflow: hidden;
+
+  position: relative;
+
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+          src="../images/banner-bg.jpg",
+          sizingMethod='scale');
+}
+.banner-msg{
+  position: absolute;
+  left: 117px;
+  top: 214px;
+
+  h2,
+  p,
+  button{
+    color: #fff;
+    font-family:  "Microsoft YaHei";
+    margin: 0;
+  }
+  h2{
+    height: 79px;
+    font-size: 60px;
+    line-height: 79px;
+    font-weight: 400;
+  }
+  p{
+    margin-top: 11px;
+    font-size: 21px;
+    line-height: 32px;
+    padding-left:  7px;
+  }
+  button{
+    width: 330px;
+    height: 62px;
+    border: none;
+    background-color: #e74f4d;
+    font-size: 30px;
+
+    margin-top: 61px;
+  }
+}
+/*-------------
+banner end
+-------------*/
+
+
+/*------------
+project start
+--------------*/
+.project{
+  width: 100%;
+  height: 250px;
+
+}
+.project-item{
+  width: 25%;
+  text-align: center;
+  margin-top: 45px;
+  padding-top: 90px;
+  float: left;
+}
+.project-item:first-child{
+  background: url("../images/project-icon-1.png") no-repeat 50% 0;
+}
+.project-item:nth-child(2){
+  background: url("../images/project-icon-2.png") no-repeat 50% 0;
+}
+.project-item:nth-child(3){
+  background: url("../images/project-icon-3.png") no-repeat 50% 0;
+}
+.project-item:nth-child(4){
+  background: url("../images/project-icon-4.png") no-repeat 50% 0;
+}
+.project-info{
+  border-right: 2px solid #bbbbbb;
+  height: 52px;
+
+  p{
+    width: 158px;
+    margin: 0 auto;
+    color: #767777;
+    font-size: 14px;
+    font-family: "黑体";
+  }
+}
+.no-border{
+  border-right: none;
+}
+/*------------
+project start
+--------------*/
+
+/*---------------
+activity start
+-----------------*/
+
+.activity{
+  background-color: #ededed;
+  position: relative;
+  .activity-lead{
+    height: 360px;
+
+    img{
+      position: absolute;
+      left: 50%;
+      margin-left: -45px;
+      top: 92px;
+    }
+
+    h3{
+      width: 100%;
+      position: absolute;
+      top: 226px;
+      font-family: "黑体";
+      font-size: 54px;
+      color: #a1a1a1;
+      text-align: center;
+    }
+  }
+  .activity-info{
+    width: 100%;
+    height: 342px;
+    overflow: hidden;
+    background: url("../images/activity-info-bg.jpg") no-repeat;
+    -webkit-background-size:cover;
+    background-size: cover;
+
+    h3,p{
+      width: 100%;
+      color: #fff;
+      text-align: center;
+      font-family: "Microsoft YaHei";
+      font-weight: normal;
+    }
+    h3{
+      font-size: 21px;
+      margin-top: 50px;
+    }
+    hr{
+      width: 30px;
+      height: 3px;
+      border: none;
+      background-color: #fff;
+    }
+    p{
+      font-size: 14px;
+      margin-top: 26px;
+    }
+
+    .search{
+      width: 100%;
+      height: auto;
+    }
+    form{
+      width: 1028px;
+      margin: 45px auto 0 auto;
+      font-size: 0;
+    }
+    select,input{
+      height: 35px;
+      font-size: 12px;
+      font-family: "Microsoft YaHei";
+      color: #323333;
+      border: none;
+    }
+    select{
+      width: 236px;
+      margin-right: 28px;
+      padding-left: 10px;
+      padding-right: 40px;
+      background: url("../images/select-btn.png") no-repeat 207px center;
+      background-color: #fff;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+
+      option{
+        background-color: #e3e3e4;
+        color: #323333;
+        height: 27px;
+        line-height: 27px;
+      }
+    }
+    input{
+      width: 236px;
+      font-size: 14px;
+      letter-spacing: 20px;
+      color: #fff;
+      background-color: #be4e48;
+      position: relative;
+      top: 1px;
+    }
+  }
+  .activity-place{
+    width: 100%;
+    height: 480px;
+    padding-top: 125px;
+    background-color: #F7F7F7;
+
+    .wrap{
+      width: 976px;
+      height: 480px;
+      margin: 0 auto;
+
+    }
+    .active{
+      img{
+        position: relative;
+        top: 56px;
+      }
+      h3,p{
+        position: relative;
+      }
+      h3{
+        top: -335px;
+        font-size: 21px;
+        letter-spacing: 35px;
+        text-align: center;
+      }
+      p{
+        top: -328px;
+        width: 217px;
+        text-align: center;
+      }
+    }
+    .place{
+      float: left;
+    }
+
+    h3,p{
+      text-align: center;
+      font-family: "Microsoft YaHei";
+      font-weight: normal;
+      font-size: 14px;
+      color: #323333;
+    }
+    p{
+      color: #818181;
+    }
+    /*清除右外边距*/
+    .no-margin{
+      margin-right: 0;
+    }
+
+    img{
+      margin-right: 36px;
+      width: 201px;
+      padding: 11px 7px;
+      border: 1px solid #d5d5d5;
+      background-color: #fff;
+    }
+  }
+}
+/*---------------
+activity start
+-----------------*/
+
+/*----------------
+events start
+------------------*/
+.events{
+  width: 100%;
+  .events-slide {
+    //height: 565px;
+    background-color: #00b3ee;
+    overflow: hidden;
+    img{
+      width: 66.67%;
+      float: left;
+    }
+  }
+  .events-info{
+    width: 33.33%;
+    height: 565px;
+    float: right;
+    background-color: #f0f;
+    opacity: 0.7;
+  }
+  .events-block{
+    height: 519px;
+    background-color: yellowgreen;
+    overflow: hidden;
+    img{
+      width: 33.3%;
+      float: right;
+    }
+  }
+}
+/*----------------
+events end
+------------------*/
