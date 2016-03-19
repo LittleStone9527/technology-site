@@ -6,17 +6,26 @@ ul,
 h1,
 h2,
 h3,
-input {
+input,
+button {
   margin: 0;
   padding: 0;
 }
+a {
+  text-decoration: none;
+}
 input,
 option,
-select {
+select,
+button {
   border: none;
 }
 ul {
   list-style: none;
+}
+/*清除右外边距*/
+.no-margin {
+  margin-right: 0;
 }
 /*-------------
 header start
@@ -327,7 +336,6 @@ events start
   width: 100%;
 }
 .events .events-slide {
-  background-color: #00b3ee;
   overflow: hidden;
 }
 .events .events-slide img {
@@ -335,11 +343,68 @@ events start
   float: left;
 }
 .events .events-info {
-  width: 33.33%;
-  height: 565px;
+  width: 30%;
+  padding-top: 20px;
+  margin-right: 10px;
   float: right;
-  background-color: #f0f;
-  opacity: 0.7;
+}
+.events .events-info h3,
+.events .events-info strong,
+.events .events-info p {
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+}
+.events .events-info h3 {
+  font-size: 21px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.events .events-info strong {
+  color: #E74F4D;
+}
+.events .events-info p {
+  font-size: 14px;
+  text-indent: 2em;
+  line-height: 30px;
+  color: #aaa;
+}
+.events .events-info a {
+  height: 31px;
+  line-height: 31px;
+  width: 104px;
+  border: 1px solid #E74F4D;
+  text-align: center;
+  color: #E74F4D;
+  background-color: #fff;
+  display: block;
+  margin: 50px auto 25px auto;
+}
+.events .events-info a:hover {
+  background-color: #E74F4D;
+  color: #fff;
+}
+.events .events-info .slide-btn {
+  margin: 0 auto;
+  width: 72px;
+  height: 14px;
+  text-align: center;
+}
+.events .events-info .slide-btn .no-margin {
+  margin-right: 0;
+}
+.events .events-info .slide-btn .active {
+  background-color: #787b83;
+}
+.events .events-info .slide-btn span {
+  display: block;
+  float: left;
+  width: 12px;
+  height: 12px;
+  margin-right: 15px;
+  border: 1px solid #787b83;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
 }
 .events .events-block {
   height: 519px;
